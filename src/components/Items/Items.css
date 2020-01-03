@@ -1,0 +1,27 @@
+.itemsWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.headingWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.headingWrapper h5 {
+  font-weight: 600;
+  color: red;
+}
+
+.slider {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.coursesWrapper h4 {
+  border: 1px outset #999999;
+  cursor: pointer;
+  width: 100%;
+}
